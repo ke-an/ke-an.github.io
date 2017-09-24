@@ -48,6 +48,7 @@ timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
+theme:  minima
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
