@@ -2,6 +2,10 @@
 layout: post
 title: Archive
 permalink: /archive/
+languages:
+- en
+- lt
+subset: archive
 ---
 
 <section id="archive">

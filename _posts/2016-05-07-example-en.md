@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Example Post
-icon: file-image-o
+languages:
+- en
+- lt
+subset: example
 ---
 
 ![sample post]({{site.baseurl}}/images/image-2.png)

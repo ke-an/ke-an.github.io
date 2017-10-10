@@ -1,6 +1,5 @@
 title:            T|t dev. notes
 description:      Development notes and memos.
-disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -9,56 +8,46 @@ url:              http://ke-an.github.io/
 # Owner/author information
 owner:
   name:           ke_an
-  avatar:         avatar.jpg
-  bio:            “-“
   #email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  #facebook:       
-  github:         
-  #stackexchange:  
-  #linkedin:       
-  #instagram:      
-  #flickr:         
-  #tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
 
 # Background image to be tiled on all pages
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+#google_analytics:   
+#google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
+#bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Vilnius
 future:      true
-highlighter: pygments
-markdown:    kramdown
-highlighter: rouge
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
+plugins:
+ - jekyll-paginate
+ - jekyll-language-plugin
+
 # Amount of post to show on home page
 paginate: 5
 
+# The all languages used
+languages:          ['en', 'lt']
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
+# If not config, the first item of languages will be used as the default.
+#default_lang:   'en'
+
+#exclude_from_localization: ["javascript", "images", "css"]
+#parallel_localization: true
+
 kramdown:
-# input: GEM
   syntax_highlighter: rouge
 
 include: [".htaccess"]
+encoding: "utf-8"
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
