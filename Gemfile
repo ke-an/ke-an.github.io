@@ -1,10 +1,2 @@
-source 'https://rubygems.org'
-
-gem 'jekyll'
-gem 'coderay'
-gem 'rake'
-gem 'thor'
-gem 'activesupport'
-gem 'stringex'
-gem 'github-pages'
-gem 'jekyll-language-plugin'
+source "https://rubygems.org"
+gemspec

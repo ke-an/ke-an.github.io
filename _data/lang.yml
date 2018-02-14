@@ -1,9 +1,0 @@
----
-en:
-  home:
-    welcome: Welcome to my example home page
-    message: This is my example home page powered by the Jekyll language plugin.
-lt:
-  home:
-    welcome: Willkommen auf meiner Beispielhomepage
-    message: Dies ist meine Beispielhomepage getrieben vom Jekyll-Sprachplugin.

@@ -1,53 +1,77 @@
-title:            T|t dev. notes
-description:      Development notes and memos.
-reading_time:     true
-words_per_minute: 200
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://ke-an.github.io/
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Owner/author information
-owner:
-  name:           ke_an
-  #email:          you@email.com
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: notes after development
+author: ke_an 
+description: notes and code ideas
+baseurl:  # the subpath of your site, e.g. /blog
+url: "https://ke-an.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en
+timezone: UTC
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - LICENSE.txt
+  - CHANGELOG.md
+  - jekyll-whiteglass.gemspec
+  - screenshot.png
+  - vendor
 
-# Background image to be tiled on all pages
-background: 
+# Social media
+twitter_username: _ke_an_
+twitter_image:
+facebook_app_id:
+facebook_image:
+google_analytics:
+comments: false
 
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   
-#google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:         
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Vilnius
-future:      true
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
+# Plugins
 plugins:
- - jekyll-paginate
- - jekyll-language-plugin
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Amount of post to show on home page
+# Build settings
+markdown: kramdown
+excerpt_separator: "<!-- more -->"
+
+# Outputting
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
 paginate: 5
 
-# The all languages used
-languages:          ['en', 'lt']
+# Theme
+theme: jekyll-whiteglass
 
-language_data: data.lang.%%
-language_includes_dir: _i18n
-
-# If not config, the first item of languages will be used as the default.
-#default_lang:   'en'
-
-#exclude_from_localization: ["javascript", "images", "css"]
-#parallel_localization: true
-
+# Markdown settings
 kramdown:
-  syntax_highlighter: rouge
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
 
-include: [".htaccess"]
-encoding: "utf-8"
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
