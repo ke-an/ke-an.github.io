@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-02-14T13:39:28+00:00</updated>
+  <updated>2018-03-03T18:47:05+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -28,234 +28,151 @@
   
     <entry>
       
-      <title type="html">Welcome To Jekyll</title>
+      <title type="html">Installing Standard ML on OS X</title>
       
-      <link href="http://localhost:4000/2017/01/05/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome To Jekyll" />
-      <published>2017-01-05T00:00:00+00:00</published>
-      <updated>2017-01-05T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2017/01/05/welcome-to-jekyll</id>
-      <content type="html" xml:base="http://localhost:4000/2017/01/05/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+      <link href="http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x/" rel="alternate" type="text/html" title="Installing Standard ML on OS X" />
+      <published>2018-03-03T00:00:00+00:00</published>
+      <updated>2018-03-03T00:00:00+00:00</updated>
+      <id>http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x</id>
+      <content type="html" xml:base="http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x/">&lt;p&gt;Standard ML is one of the most popular languages to start
+learning functional programming in academic institutions. 
+It’s design influenced Haskell, Scala, Rust, OCaml (of course..)
+and other less known languages. Standard ML comes in several flavours/compilers, but
+most popular are Standard ML of New Jersey, Moscow ML, Poly/ML, MLton. &lt;br /&gt;
+Let’s start with SML/NJ, the most widely used one.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;First install &lt;a href=&quot;https://brew.sh/&quot; target=&quot;_blank&quot;&gt;Homebrew package manager&lt;/a&gt; in case you don’t have it yet:&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      
-        <author>
-            <name>ke_an</name>
-          
-          
-        </author>
-      
-
-      
-
-      
-
-      
-        <summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi('Tom') #=&amp;gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</summary>
-      
-
-      
-      
-    </entry>
-  
-  
-  
-    <entry>
-      
-      <title type="html">This post demonstrates post content styles</title>
-      
-      <link href="http://localhost:4000/2017/01/04/this-post-demonstrates-post-content-styles/" rel="alternate" type="text/html" title="This post demonstrates post content styles" />
-      <published>2017-01-04T00:00:00+00:00</published>
-      <updated>2017-01-04T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2017/01/04/this-post-demonstrates-post-content-styles</id>
-      <content type="html" xml:base="http://localhost:4000/2017/01/04/this-post-demonstrates-post-content-styles/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h2&gt;Some great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.&lt;/p&gt;
-
-&lt;p&gt;Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;h2&gt;Another great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h3&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.&lt;/p&gt;
-
-&lt;p&gt;Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.&lt;/p&gt;
-
-&lt;h3&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;p&gt;Next step is for SML/NJ:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install smlnj
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h4&gt;You might want a sub-subheading (h4)&lt;/h4&gt;
+&lt;p&gt;Update your environment variables in default editor:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ open -t ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;p&gt;Insert path to your SML/NJ /bin directory:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cellar&lt;/em&gt; is a folder created by Homebrew for it’s packages. 
+Save and close the editor. &lt;br /&gt;
+Reload your user profile:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ source ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now you can run SML/NJ compiler from command line with simple:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;It should output the name of the compiler and the version, e.g.:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Standard ML of New Jersey v110.82 [built: Tue Jan  9 20:54:24 2018]
+-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Close the compiler with Ctrl+Z&lt;/p&gt;
 
-&lt;h4&gt;But it’s probably overkill (h4)&lt;/h4&gt;
+&lt;h3&gt;- - SML Editor - -&lt;/h3&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;p&gt;SML files can be edited in any editor of your choice.
+But classic editing tool for SML is GNU Emacs, hereinafter referred to as
+Emacs - so we’ll setup SML editing environment in this universal kitchen sink.&lt;/p&gt;
 
-&lt;h3&gt;Oh hai, an unordered list!!&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png&quot; alt=&quot;emacs-kitchen-sink&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;p&gt;Let’s get it:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install emacs --with-cocoa
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;After Emacs is installed, we need to be sure sml-mode is working.
+Open Emacs and then package manager with:&lt;/p&gt;
 
-&lt;h3&gt;Oh hai, an ordered list!!&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x list-packages &amp;lt;RET&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;which means:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;press ALT+x then type list-packages then press ENTER
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Emacs shortcuts being written as &lt;strong&gt;C(ontrol)-c&lt;/strong&gt; [Used:Ctrl-c] or &lt;strong&gt;M(eta)-x&lt;/strong&gt; [Used:Alt-x] &lt;br /&gt;
+due to historic reasons - Emacs was developed on Lisp machine, using
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Space-cadet_keyboard&quot; target=&quot;_blank&quot;&gt;space-cadet keyboard&lt;/a&gt; with
+Meta and Control keys. &lt;br /&gt;
+More about Emacs shortcut history you can find in the article 
+&lt;a href=&quot;http://ergoemacs.org/emacs/emacs_kb_shortcuts_pain.html&quot; target=&quot;_blank&quot;&gt;Why Emacs’s Keyboard Shortcuts are Painful&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;By pressing &lt;em&gt;f&lt;/em&gt;, we will get into search mode, enter &lt;em&gt;sml-mode&lt;/em&gt; as a search word and 
+press &lt;em&gt;Enter&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Headings are cool! (h2)&lt;/h2&gt;
+&lt;p&gt;If sml-mode package status is other than installed - place the cursor on the
+line with sml-mode package and press &lt;em&gt;i&lt;/em&gt;, followed by &lt;em&gt;x&lt;/em&gt;. 
+The package should be installed now.&lt;/p&gt;
 
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;h3&gt;- - Running SML/NJ compiler from Emacs - -&lt;/h3&gt;
 
-&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;In order to be sure SML/NJ compiler will be called within Emacs, we need to add
+some configurations to user settings:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ touch ~/.emacs 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;</content>
+&lt;p&gt;add these lines to your &lt;em&gt;.emacs&lt;/em&gt; file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-lisp&quot;&gt;(autoload 'sml-mode  &quot;sml-mode&quot; &quot;Mode for editing SML.&quot; t)
+(setenv &quot;PATH&quot; (concat &quot;/usr/local/Cellar/smlnj/110.82/bin:&quot; (getenv &quot;PATH&quot;)))
+(setq exec-path (cons &quot;/usr/local/Cellar/smlnj/110.82/bin&quot;  exec-path))
+(setq sml-program-name &quot;sml&quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-      
-      
-      
-      
-      
+&lt;p&gt;Restart Emacs. Time to test.&lt;/p&gt;
 
-      
-        <author>
-            <name>Bart Simpson</name>
-          
-          
-        </author>
-      
+&lt;h3&gt;- - Testing - -&lt;/h3&gt;
 
-      
-        <category term="junk" />
-      
+&lt;p&gt;Firstly we will test sml-mode:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;after that your mode from &lt;em&gt;(Fundamental)&lt;/em&gt; should change to &lt;em&gt;(SML)&lt;/em&gt;
+in your 
+&lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/emacs/Mode-Line.html&quot; target=&quot;_blank&quot;&gt;mode line&lt;/a&gt;&lt;/p&gt;
 
-      
+&lt;p&gt;Secondly, we will test invoking compiler within Emacs:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x run-sml &amp;lt;RET&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-      
-        <summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Some great heading (h2) Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Another great heading (h2) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Some great subheading (h3) Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Some great subheading (h3) Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Some great subheading (h3) Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Hello, World!&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. You might want a sub-subheading (h4) In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. But it’s probably overkill (h4) In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Oh hai, an unordered list!! In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. First item, yo Second item, dawg Third item, what what?! Fourth item, fo sheezy my neezy Oh hai, an ordered list!! In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. First item, yo Second item, dawg Third item, what what?! Fourth item, fo sheezy my neezy Headings are cool! (h2) Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</summary>
-      
+&lt;p&gt;Emacs will start SML in a new buffer. 
+It should have &lt;em&gt;(Inferior-SML: run Compilation)&lt;/em&gt; in it’s mode line.&lt;/p&gt;
 
-      
-      
-    </entry>
-  
-  
-  
-    <entry>
-      
-      <title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title>
-      
-      <link href="http://localhost:4000/2017/01/03/super-long-article/" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" />
-      <published>2017-01-03T00:00:00+00:00</published>
-      <updated>2017-01-03T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2017/01/03/super-long-article</id>
-      <content type="html" xml:base="http://localhost:4000/2017/01/03/super-long-article/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Now test it with the code. Open empty buffer:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C+x b 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Type your new buffer name e.g.: &lt;em&gt;sml-mode-test&lt;/em&gt;. Change to sml-mode:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;</content>
+&lt;p&gt;Type:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1+1;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-      
-      
-      
-      
-      
+&lt;p&gt;in your buffer and press:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-c C-b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-      
-        <author>
-            <name>ke_an</name>
-          
-          
-        </author>
-      
+&lt;p&gt;this command will send the code from your buffer to the compiler.
+The result should look like this:&lt;/p&gt;
 
-      
-        <category term="misc" />
-      
+&lt;p&gt;&lt;img src=&quot;/assets/img/2018-03-03_emacs_sml.png&quot; alt=&quot;emacs-sml-mode&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
-      
-        <category term="lorem" />
-      
-        <category term="ipsum" />
-      
+&lt;p&gt;You can close the buffer with:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x k bufname &amp;lt;RET&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-      
-        <summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</summary>
-      
+&lt;p&gt;List/switch between buffers&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x b &amp;lt;TAB&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-      
-      
-    </entry>
-  
-  
-  
-    <entry>
-      
-      <title type="html">My Example Post</title>
-      
-      <link href="http://localhost:4000/2017/01/02/my-example-post/" rel="alternate" type="text/html" title="My Example Post" />
-      <published>2017-01-02T00:00:00+00:00</published>
-      <updated>2017-01-02T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2017/01/02/my-example-post</id>
-      <content type="html" xml:base="http://localhost:4000/2017/01/02/my-example-post/">&lt;p&gt;Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.&lt;/p&gt;
-
-&lt;p&gt;No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.&lt;/p&gt;</content>
+&lt;p&gt;More about sml_mode commands in
+&lt;a href=&quot;https://www.smlnj.org/doc/Emacs/sml-mode.html&quot; target=&quot;_blank&quot;&gt;SML mode - The Emacs SML editing mode&lt;/a&gt;. &lt;br /&gt;
+You are ready to go.&lt;/p&gt;</content>
 
       
       
@@ -272,11 +189,13 @@
       
 
       
-
+        <category term="SML" />
       
 
       
-        <summary type="html">Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te. No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</summary>
+
+      
+        <summary type="html">Standard ML is one of the most popular languages to start learning functional programming in academic institutions. It’s design influenced Haskell, Scala, Rust, OCaml (of course..) and other less known languages. Standard ML comes in several flavours/compilers, but most popular are Standard ML of New Jersey, Moscow ML, Poly/ML, MLton. Let’s start with SML/NJ, the most widely used one. First install Homebrew package manager in case you don’t have it yet: /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; Next step is for SML/NJ: $ brew install smlnj Update your environment variables in default editor: $ open -t ~/.bash_profile Insert path to your SML/NJ /bin directory: export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH Cellar is a folder created by Homebrew for it’s packages. Save and close the editor. Reload your user profile: $ source ~/.bash_profile Now you can run SML/NJ compiler from command line with simple: $ sml It should output the name of the compiler and the version, e.g.: Standard ML of New Jersey v110.82 [built: Tue Jan 9 20:54:24 2018] - Close the compiler with Ctrl+Z - - SML Editor - - SML files can be edited in any editor of your choice. But classic editing tool for SML is GNU Emacs, hereinafter referred to as Emacs - so we’ll setup SML editing environment in this universal kitchen sink. Let’s get it: $ brew install emacs --with-cocoa After Emacs is installed, we need to be sure sml-mode is working. Open Emacs and then package manager with: M-x list-packages &amp;lt;RET&amp;gt; which means: press ALT+x then type list-packages then press ENTER Emacs shortcuts being written as C(ontrol)-c [Used:Ctrl-c] or M(eta)-x [Used:Alt-x] due to historic reasons - Emacs was developed on Lisp machine, using space-cadet keyboard with Meta and Control keys. More about Emacs shortcut history you can find in the article Why Emacs’s Keyboard Shortcuts are Painful By pressing f, we will get into search mode, enter sml-mode as a search word and press Enter. If sml-mode package status is other than installed - place the cursor on the line with sml-mode package and press i, followed by x. The package should be installed now. - - Running SML/NJ compiler from Emacs - - In order to be sure SML/NJ compiler will be called within Emacs, we need to add some configurations to user settings: $ touch ~/.emacs add these lines to your .emacs file: (autoload 'sml-mode &quot;sml-mode&quot; &quot;Mode for editing SML.&quot; t) (setenv &quot;PATH&quot; (concat &quot;/usr/local/Cellar/smlnj/110.82/bin:&quot; (getenv &quot;PATH&quot;))) (setq exec-path (cons &quot;/usr/local/Cellar/smlnj/110.82/bin&quot; exec-path)) (setq sml-program-name &quot;sml&quot;) Restart Emacs. Time to test. - - Testing - - Firstly we will test sml-mode: M-x sml-mode &amp;lt;RET&amp;gt; after that your mode from (Fundamental) should change to (SML) in your mode line Secondly, we will test invoking compiler within Emacs: M-x run-sml &amp;lt;RET&amp;gt; Emacs will start SML in a new buffer. It should have (Inferior-SML: run Compilation) in it’s mode line. Now test it with the code. Open empty buffer: C+x b Type your new buffer name e.g.: sml-mode-test. Change to sml-mode: M-x sml-mode &amp;lt;RET&amp;gt; Type: 1+1; in your buffer and press: C-c C-b this command will send the code from your buffer to the compiler. The result should look like this: You can close the buffer with: C-x k bufname &amp;lt;RET&amp;gt; List/switch between buffers C-x b &amp;lt;TAB&amp;gt; More about sml_mode commands in SML mode - The Emacs SML editing mode. You are ready to go.</summary>
       
 
       
