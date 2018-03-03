@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-03-03T18:47:05+00:00</updated>
+  <updated>2018-03-03T22:04:54+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -78,7 +78,7 @@ Reload your user profile:&lt;/p&gt;
 But classic editing tool for SML is GNU Emacs, hereinafter referred to as
 Emacs - so we’ll setup SML editing environment in this universal kitchen sink.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png&quot; alt=&quot;emacs-kitchen-sink&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png&quot; alt=&quot;emacs-kitchen-sink&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s get it:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install emacs --with-cocoa
@@ -160,7 +160,7 @@ It should have &lt;em&gt;(Inferior-SML: run Compilation)&lt;/em&gt; in it’s mo
 &lt;p&gt;this command will send the code from your buffer to the compiler.
 The result should look like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2018-03-03_emacs_sml.png&quot; alt=&quot;emacs-sml-mode&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/2018-03-03_emacs_sml.png&quot; alt=&quot;emacs-sml-mode&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can close the buffer with:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x k bufname &amp;lt;RET&amp;gt;

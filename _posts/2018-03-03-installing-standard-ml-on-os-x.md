@@ -58,7 +58,7 @@ But classic editing tool for SML is GNU Emacs, hereinafter referred to as
 Emacs - so we'll setup SML editing environment in this universal kitchen sink.
 
 ![emacs-kitchen-sink](http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png
-){:class="img-responsive"}
+){:class="img-center"}
 
 Let's get it:
 ```
@@ -150,7 +150,7 @@ C-c C-b
 this command will send the code from your buffer to the compiler.
 The result should look like this:
 
-![emacs-sml-mode](/assets/img/2018-03-03_emacs_sml.png){:class="img-responsive"}
+![emacs-sml-mode](/assets/img/2018-03-03_emacs_sml.png){:class="img-center"}
 
 You can close the buffer with:
 ```

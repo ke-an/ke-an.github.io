@@ -27,7 +27,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// ke_an corrections 20189 03 03
+.img-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 // whiteglass also includes a mixin for defining media queries.
 // Use media queries like this:
