@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <generator uri="http://jekyllrb.com" version="3.7.2">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="4.2.0">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-03-03T22:04:54+00:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="https://ke-an.github.io/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://ke-an.github.io/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>2021-02-27T01:14:25+00:00</updated>
+  <id>https://ke-an.github.io//</id>
 
   
     <title type="html">notes after development</title>
@@ -30,11 +30,11 @@
       
       <title type="html">Installing Standard ML on OS X</title>
       
-      <link href="http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x/" rel="alternate" type="text/html" title="Installing Standard ML on OS X" />
+      <link href="https://ke-an.github.io/2018/03/03/installing-standard-ml-on-os-x/" rel="alternate" type="text/html" title="Installing Standard ML on OS X" />
       <published>2018-03-03T00:00:00+00:00</published>
       <updated>2018-03-03T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x</id>
-      <content type="html" xml:base="http://localhost:4000/2018/03/03/installing-standard-ml-on-os-x/">&lt;p&gt;Standard ML is one of the most popular languages to start
+      <id>https://ke-an.github.io/2018/03/03/installing-standard-ml-on-os-x</id>
+      <content type="html" xml:base="https://ke-an.github.io/2018/03/03/installing-standard-ml-on-os-x/">&lt;p&gt;Standard ML is one of the most popular languages to start
 learning functional programming in academic institutions. 
 It’s design influenced Haskell, Scala, Rust, OCaml (of course..)
 and other less known languages. Standard ML comes in several flavours/compilers, but
@@ -43,31 +43,31 @@ Let’s start with SML/NJ, the most widely used one.&lt;/p&gt;
 
 &lt;p&gt;First install &lt;a href=&quot;https://brew.sh/&quot; target=&quot;_blank&quot;&gt;Homebrew package manager&lt;/a&gt; in case you don’t have it yet:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Next step is for SML/NJ:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install smlnj
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install smlnj
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Update your environment variables in default editor:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ open -t ~/.bash_profile
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ open -t ~/.bash_profile
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Insert path to your SML/NJ /bin directory:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Cellar&lt;/em&gt; is a folder created by Homebrew for it’s packages. 
 Save and close the editor. &lt;br /&gt;
 Reload your user profile:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ source ~/.bash_profile
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ source ~/.bash_profile
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Now you can run SML/NJ compiler from command line with simple:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sml
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sml
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;It should output the name of the compiler and the version, e.g.:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Standard ML of New Jersey v110.82 [built: Tue Jan  9 20:54:24 2018]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Standard ML of New Jersey v110.82 [built: Tue Jan  9 20:54:24 2018]
 -
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Close the compiler with Ctrl+Z&lt;/p&gt;
@@ -81,16 +81,16 @@ Emacs - so we’ll setup SML editing environment in this universal kitchen sink.
 &lt;p&gt;&lt;img src=&quot;http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png&quot; alt=&quot;emacs-kitchen-sink&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s get it:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install emacs --with-cocoa
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install emacs --with-cocoa
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;After Emacs is installed, we need to be sure sml-mode is working.
 Open Emacs and then package manager with:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x list-packages &amp;lt;RET&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x list-packages &amp;lt;RET&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;which means:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;press ALT+x then type list-packages then press ENTER
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;press ALT+x then type list-packages then press ENTER
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
@@ -113,48 +113,48 @@ The package should be installed now.&lt;/p&gt;
 
 &lt;p&gt;In order to be sure SML/NJ compiler will be called within Emacs, we need to add
 some configurations to user settings:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ touch ~/.emacs 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ touch ~/.emacs 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;add these lines to your &lt;em&gt;.emacs&lt;/em&gt; file:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-lisp&quot;&gt;(autoload 'sml-mode  &quot;sml-mode&quot; &quot;Mode for editing SML.&quot; t)
-(setenv &quot;PATH&quot; (concat &quot;/usr/local/Cellar/smlnj/110.82/bin:&quot; (getenv &quot;PATH&quot;)))
-(setq exec-path (cons &quot;/usr/local/Cellar/smlnj/110.82/bin&quot;  exec-path))
-(setq sml-program-name &quot;sml&quot;)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;language-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;autoload&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'sml-mode&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;&quot;sml-mode&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Mode for editing SML.&quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;setenv&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;PATH&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/usr/local/Cellar/smlnj/110.82/bin:&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;getenv&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;PATH&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;exec-path&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cons&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/usr/local/Cellar/smlnj/110.82/bin&quot;&lt;/span&gt;  &lt;span class=&quot;nv&quot;&gt;exec-path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;sml-program-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Restart Emacs. Time to test.&lt;/p&gt;
 
 &lt;h3&gt;- - Testing - -&lt;/h3&gt;
 
 &lt;p&gt;Firstly we will test sml-mode:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;after that your mode from &lt;em&gt;(Fundamental)&lt;/em&gt; should change to &lt;em&gt;(SML)&lt;/em&gt;
 in your 
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/emacs/Mode-Line.html&quot; target=&quot;_blank&quot;&gt;mode line&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Secondly, we will test invoking compiler within Emacs:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x run-sml &amp;lt;RET&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x run-sml &amp;lt;RET&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Emacs will start SML in a new buffer. 
 It should have &lt;em&gt;(Inferior-SML: run Compilation)&lt;/em&gt; in it’s mode line.&lt;/p&gt;
 
 &lt;p&gt;Now test it with the code. Open empty buffer:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C+x b 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C+x b 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Type your new buffer name e.g.: &lt;em&gt;sml-mode-test&lt;/em&gt;. Change to sml-mode:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt; 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x sml-mode &amp;lt;RET&amp;gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Type:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1+1;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1+1;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;in your buffer and press:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-c C-b
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-c C-b
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;this command will send the code from your buffer to the compiler.
@@ -163,11 +163,11 @@ The result should look like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/2018-03-03_emacs_sml.png&quot; alt=&quot;emacs-sml-mode&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can close the buffer with:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x k bufname &amp;lt;RET&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x k bufname &amp;lt;RET&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;List/switch between buffers&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x b &amp;lt;TAB&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-x b &amp;lt;TAB&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;More about sml_mode commands in

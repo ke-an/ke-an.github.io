@@ -14,10 +14,10 @@
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="https://ke-an.github.io/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="notes after development" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="notes after development" href="https://ke-an.github.io/feed.xml">
 
   
 
@@ -133,31 +133,31 @@ Let’s start with SML/NJ, the most widely used one.</p>
 
 <p>First install <a href="https://brew.sh/" target="_blank">Homebrew package manager</a> in case you don’t have it yet:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 </code></pre></div></div>
 
 <p>Next step is for SML/NJ:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install smlnj
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install smlnj
 </code></pre></div></div>
 
 <p>Update your environment variables in default editor:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ open -t ~/.bash_profile
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ open -t ~/.bash_profile
 </code></pre></div></div>
 
 <p>Insert path to your SML/NJ /bin directory:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH=/usr/local/Cellar/smlnj/110.82/bin:$PATH
 </code></pre></div></div>
 
 <p><em>Cellar</em> is a folder created by Homebrew for it’s packages. 
 Save and close the editor. <br />
 Reload your user profile:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ source ~/.bash_profile
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ source ~/.bash_profile
 </code></pre></div></div>
 <p>Now you can run SML/NJ compiler from command line with simple:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sml
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sml
 </code></pre></div></div>
 <p>It should output the name of the compiler and the version, e.g.:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Standard ML of New Jersey v110.82 [built: Tue Jan  9 20:54:24 2018]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Standard ML of New Jersey v110.82 [built: Tue Jan  9 20:54:24 2018]
 -
 </code></pre></div></div>
 <p>Close the compiler with Ctrl+Z</p>
@@ -171,16 +171,16 @@ Emacs - so we’ll setup SML editing environment in this universal kitchen sink.
 <p><img src="http://ergoemacs.org/emacs/i/emacs_kitchen_sink_icon_1987.png" alt="emacs-kitchen-sink" class="img-center" /></p>
 
 <p>Let’s get it:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install emacs --with-cocoa
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install emacs --with-cocoa
 </code></pre></div></div>
 
 <p>After Emacs is installed, we need to be sure sml-mode is working.
 Open Emacs and then package manager with:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x list-packages &lt;RET&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x list-packages &lt;RET&gt;
 </code></pre></div></div>
 <p>which means:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>press ALT+x then type list-packages then press ENTER
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>press ALT+x then type list-packages then press ENTER
 </code></pre></div></div>
 
 <blockquote>
@@ -203,48 +203,48 @@ The package should be installed now.</p>
 
 <p>In order to be sure SML/NJ compiler will be called within Emacs, we need to add
 some configurations to user settings:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ touch ~/.emacs 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ touch ~/.emacs 
 </code></pre></div></div>
 
 <p>add these lines to your <em>.emacs</em> file:</p>
-<pre><code class="language-lisp">(autoload 'sml-mode  "sml-mode" "Mode for editing SML." t)
-(setenv "PATH" (concat "/usr/local/Cellar/smlnj/110.82/bin:" (getenv "PATH")))
-(setq exec-path (cons "/usr/local/Cellar/smlnj/110.82/bin"  exec-path))
-(setq sml-program-name "sml")
-</code></pre>
+<div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nv">autoload</span> <span class="ss">'sml-mode</span>  <span class="s">"sml-mode"</span> <span class="s">"Mode for editing SML."</span> <span class="no">t</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">setenv</span> <span class="s">"PATH"</span> <span class="p">(</span><span class="nv">concat</span> <span class="s">"/usr/local/Cellar/smlnj/110.82/bin:"</span> <span class="p">(</span><span class="nv">getenv</span> <span class="s">"PATH"</span><span class="p">)))</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">exec-path</span> <span class="p">(</span><span class="nb">cons</span> <span class="s">"/usr/local/Cellar/smlnj/110.82/bin"</span>  <span class="nv">exec-path</span><span class="p">))</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">sml-program-name</span> <span class="s">"sml"</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>Restart Emacs. Time to test.</p>
 
 <h3>- - Testing - -</h3>
 
 <p>Firstly we will test sml-mode:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x sml-mode &lt;RET&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x sml-mode &lt;RET&gt;
 </code></pre></div></div>
 <p>after that your mode from <em>(Fundamental)</em> should change to <em>(SML)</em>
 in your 
 <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Mode-Line.html" target="_blank">mode line</a></p>
 
 <p>Secondly, we will test invoking compiler within Emacs:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x run-sml &lt;RET&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x run-sml &lt;RET&gt;
 </code></pre></div></div>
 
 <p>Emacs will start SML in a new buffer. 
 It should have <em>(Inferior-SML: run Compilation)</em> in it’s mode line.</p>
 
 <p>Now test it with the code. Open empty buffer:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C+x b 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C+x b 
 </code></pre></div></div>
 
 <p>Type your new buffer name e.g.: <em>sml-mode-test</em>. Change to sml-mode:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x sml-mode &lt;RET&gt; 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x sml-mode &lt;RET&gt; 
 </code></pre></div></div>
 
 <p>Type:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1+1;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1+1;
 </code></pre></div></div>
 
 <p>in your buffer and press:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c C-b
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c C-b
 </code></pre></div></div>
 
 <p>this command will send the code from your buffer to the compiler.
@@ -253,11 +253,11 @@ The result should look like this:</p>
 <p><img src="/assets/img/2018-03-03_emacs_sml.png" alt="emacs-sml-mode" class="img-center" /></p>
 
 <p>You can close the buffer with:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x k bufname &lt;RET&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x k bufname &lt;RET&gt;
 </code></pre></div></div>
 
 <p>List/switch between buffers</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x b &lt;TAB&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x b &lt;TAB&gt;
 </code></pre></div></div>
 
 <p>More about sml_mode commands in
@@ -286,7 +286,7 @@ You are ready to go.</p>
     <p>
       
 
-&copy; ke_an - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy; ke_an - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://ke-an.github.io/feed.xml">RSS</a>
 
     </p>
 

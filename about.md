@@ -5,4 +5,3 @@ permalink: /about/
 ---
 
 Notes after development - memos, explorations, studies.
-
