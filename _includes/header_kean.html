@@ -1,0 +1,42 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    {% include language_switch.html %}
+
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <nav class="site-nav">
+     {% if page.lang == "lt" %}
+      {% for link in site.data.navigation.main_lt %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+      {% endfor %}
+     {% elsif page.lang == "en" %}
+      {% for link in site.data.navigation.main_en %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+      {% endfor %}
+      {% else %}
+      {% for link in site.data.navigation.main_en %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+      {% endfor %}
+      {% endif %}
+
+    </nav>
+  </div>
+</header>
+

@@ -5,7 +5,7 @@
   
   <link href="https://ke-an.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ke-an.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2021-02-27T01:14:25+00:00</updated>
+  <updated>2021-03-14T23:09:45+00:00</updated>
   <id>https://ke-an.github.io//</id>
 
   
@@ -26,7 +26,7 @@
 
   
   
-    <entry>
+    <entry xml:lang="en">
       
       <title type="html">Installing Standard ML on OS X</title>
       
@@ -188,6 +188,8 @@ You are ready to go.&lt;/p&gt;</content>
         </author>
       
 
+      
+        <category term="en" />
       
         <category term="SML" />
       

@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "About"
-permalink: /about/
+lang: en
+ref: about
+permalink: /en/about/
 ---
 
 Notes after development - memos, explorations, studies.

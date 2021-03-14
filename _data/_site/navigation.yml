@@ -9,9 +9,9 @@ main:
     url: https://github.com/ke-an
 main_en:
   - title: "About"
-    url: /en/about/
+    url: /about/
   - title: "Archives"
-    url: /en/archives/
+    url: /archives/
   - title: "GitHub"
     url: https://github.com/ke-an
 main_lt:

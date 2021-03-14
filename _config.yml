@@ -49,6 +49,23 @@ plugins:
 markdown: kramdown
 excerpt_separator: "<!-- more -->"
 
+# languages
+# default langages : "en" 
+languages: ["en", "lt"]
+
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "lt"
+    values:
+      lang: "lt"
+
+#exclude_from_localizations: ["assets"]
+#default_locale_in_subfolder: true
+
 # Outputting
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/

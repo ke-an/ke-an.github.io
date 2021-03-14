@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Installing Standard ML on OS X"
+lang: en
+ref: installing_standard_ML_on_OS_X
 categories: "SML"
 author: "ke_an"
 meta: "Standard ML"
