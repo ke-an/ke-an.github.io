@@ -72,7 +72,7 @@ paginate_path: /posts/:num/
 paginate: 5
 
 # Theme
-theme: jekyll-whiteglass
+theme: minima
 
 # Markdown settings
 kramdown:
