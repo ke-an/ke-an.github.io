@@ -167,4 +167,4 @@ C-x b <TAB>
 More about sml_mode commands in
 [SML mode - The Emacs SML editing mode](https://www.smlnj.org/doc/Emacs/sml-mode.html){:target="_blank"}.   
 You are ready to go.
-
+.
